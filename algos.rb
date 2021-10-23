@@ -52,9 +52,32 @@
 # slasher([1, 2, 3], 2);
 
 #I am Ruby
-def slasher(arr, howMany)
-  puts arr.slice!(howMany)
+# def slasher(arr, howMany)
+#   puts arr.slice!(howMany)
 
-end
+# end
 
-slasher([1, 2, 3], 2);
+# slasher([1, 2, 3], 2);
+
+#this is JavaScript
+# function repeatStringNumTimes(str, num) {
+#   if(num < 0){
+#     return ('');
+#   } else {
+#   return str.repeat(num);
+# }
+# }
+
+# repeatStringNumTimes("abc", 3);
+
+#this is ruby
+# def repeatStringNumTimes(str, num)
+#   if num < 0
+#     puts ('')
+# else 
+#   puts str * num
+# end
+
+# end
+
+# repeatStringNumTimes("abc", 1);
