@@ -10,15 +10,15 @@
 
 
 
-#   #I am Ruby
+  #I am Ruby
 # def oddOnly(numberList)
 #     allNumbers = numberList.join("\n")
-#     oddNumbers = allNumbers.scan(/[13579]/)
+#     oddNumbers = allNumbers.scan(/^\d*[13579]$/)
 # puts oddNumbers
     
 # end
 
-# oddOnly([2, 3, 8, 10, 9, 4, 24, 18, 14, 13])
+# oddOnly([2, 3, 8, 10, 9, 4, 24, 18, 14, 13, 92, 23])
 
 
 #I am JavaScript
@@ -59,7 +59,7 @@
 
 # slasher([1, 2, 3], 2);
 
-#this is JavaScript
+#I am JavaScript
 # function repeatStringNumTimes(str, num) {
 #   if(num < 0){
 #     return ('');
@@ -70,9 +70,9 @@
 
 # repeatStringNumTimes("abc", 3);
 
-#this is ruby
+#I am ruby
 # def repeatStringNumTimes(str, num)
-#   if num < 0
+#   if num <= 0
 #     puts ('')
 # else 
 #   puts str * num
